@@ -2,20 +2,18 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Pong Game</title>
+  <title>Bugatti Chiron Platformer</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div id="game-container">
-    <canvas id="pong" width="800" height="400"></canvas>
-    <div id="scoreboard">
-      <span id="score-left">0</span>
-      <span>:</span>
-      <span id="score-right">0</span>
-    </div>
-    <div id="controls">
-      <p>Left paddle: W/S &nbsp;&nbsp; Right paddle: ↑/↓</p>
-    </div>
+  <h2>Bugatti Chiron Platformer</h2>
+  <canvas id="game" width="900" height="500"></canvas>
+  <div id="info">
+    <p>
+      Controls: Arrow keys or WASD to move and jump.<br>
+      Power-ups: <span style="color:red;">Mushroom</span> (grow), <span style="color:gold;">Star</span> (invincibility)<br>
+      <b>Twist:</b> Some platforms vanish and reappear!
+    </p>
   </div>
   <script src="script.js"></script>
 </body>
